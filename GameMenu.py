@@ -9,7 +9,6 @@ import sys
 
 
 def main_menu():
-
     """
     the deafault menu text is a function
     the menu shows you the options you can choose from
@@ -20,36 +19,36 @@ def main_menu():
     # this function can be called by typing 'menu'
     print("------Welcome to the Main Menu------")
     print("You can do any of the following actions:")
-    print("-stats   (veiw your characters stats)")
-    print("-charc   (View your character)")
-    print("-inv     (View the items in your inventory)")
-    print("-store   (purchase weapons and equipment)")
-    print("-lvl     (Select the level you wish to play)")
-    print("-quit    (Leave the menu loop) ")
+    print("-stats (veiw your characters stats)")
+    print("-charc (View your character)")
+    print("-inv (View the items in your inventory)")
+    print("-store (purchase weapons and equipment)")
+    print("-lvl (Select the level you wish to play)")
+    print("-quit (Leave the menu loop) ")
     print("")
     print("You can type 'menu' at any time to see the above list")
     print("")
     print("------------------------------------")
 
 
-character_stats = ["HEALTH:     120", "ATTACK:     20",
-                   "DEFENSE:    8", "EXPERIENCE: 50"]
+character_stats = ["HEALTH: 120", "ATTACK: 20",
+                   "DEFENSE: 8", "EXPERIENCE: 50"]
 # list of your charcters stats
 # this list can be accsessed by typing 'stats'
 
-charcter_traits = ["Name:  John", "Race:  Human", "Class: Cowboy"]
+charcter_traits = ["Name: John", "Race: Human", "Class: Cowboy"]
 # list of your characters traits
 # this list can be accsessed by typing 'charc'
 
-inventory = ["MAIN WEAPON:      Long Sword", "SECONDARY WEAPON: Pocket Knife",
-             "Healing Items:    Bandages x 2", "Gold Peices:      100"]
+inventory = ["MAIN WEAPON: Long Sword", "SECONDARY WEAPON: Pocket Knife",
+             "Healing Items: Bandages x 2", "Gold Peices: 100"]
 # this list can be accsessed by typing 'inv'
 # list of items that your character is carrying
 
-store_items = ["Shortsword    - +3 to attack  - 75 gold",
-               "Combat Knife  - +1 to attack  - 45 gold",
-               "Shogun        - +4 to attack  - 250 gold",
-               "Sheild        - +2 to defense - 80 gold"]
+store_items = ["Shortsword - +3 to attack - 75 gold",
+               "Combat Knife - +1 to attack - 45 gold",
+               "Shogun - +4 to attack - 250 gold",
+               "Sheild - +2 to defense - 80 gold"]
 # list of items that can be bought from the store
 # this list can be accsessed by typing 'store'
 
@@ -134,5 +133,7 @@ while True:
         else:
             print("You have choosen not to quit")
             print("")
+    
     else:
+        # if the player makes a typo... 
         print("Invalid entry, please try again")
