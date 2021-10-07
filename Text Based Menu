@@ -71,11 +71,12 @@ while True:
     user_input = str(input(""))
     # asks the player to choose what they want to do
     if user_input == "stats":
+        print("---------Stats---------")
         # if the player wants to see statistics...
         for x in character_stats:
             print(f"-> {x}")
             # print the list of stats on diffrent lines
-        print("")
+        print("-----------------------")
 
     elif user_input == "charc":
         print("---------Your Character---------")
@@ -133,3 +134,5 @@ while True:
         else:
             print("You have choosen not to quit")
             print("")
+    else:
+        print("Invalid entry, please try again")
