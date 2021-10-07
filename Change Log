@@ -9,3 +9,7 @@
     # Minor cosemtic chages: 
       # changed the '-' in front of list items to '->'
       # added '----------------' above and below the menus responses
+
+  # Version 1.3:
+    # Added a message that is displayed when the user inputs an invalid entry.
+    #Fixed a few aesthetical problems to be in accordance with PEP8
