@@ -1,0 +1,11 @@
+  # Version 1.0:
+    # Created main menu and decided on options for the menu to display. The menu detetcs when a play puts an input in, but does not give a response
+
+  # Version 1.1:
+    # Added functionality to the menu. The menu now give the desired response when the player types an input. 
+    # minor bug fixes
+
+  # Version 1.2: 
+    # Minor cosemtic chages: 
+      # changed the '-' in front of list items to '->'
+      # added '----------------' above and below the menus responses
